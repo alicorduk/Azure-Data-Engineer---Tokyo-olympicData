@@ -79,12 +79,20 @@ Stored in `raw-data/` and transformed into `transformed-data/` folders:
 
 ---
 
-## 📈 Optional Next Steps
+## 🔁 Data Pipeline
 
-- Create Power BI dashboard via Synapse connection
-- Schedule pipeline runs using ADF triggers
-- Automate Spark notebooks using Azure Job APIs
-- Register datasets in Unity Catalog
+This Azure Data Factory pipeline copies raw Olympic datasets (athletes, coaches, entriesgender, medals, teams) into ADLS Gen2 before transformation in Databricks.
+
+![ADF Pipeline](https://github.com/alicorduk/Azure-Data-Engineer---Tokyo-olympicData/blob/main/Pipelines.png)
+
+---
+
+## 🧱 Architecture Diagram
+
+This architecture illustrates the full end-to-end pipeline from data ingestion to dashboarding using Azure services.
+
+![Azure Architecture](https://github.com/alicorduk/Azure-Data-Engineer---Tokyo-olympicData/blob/main/Azure_Diagram.png)
+
 
 ---
 
