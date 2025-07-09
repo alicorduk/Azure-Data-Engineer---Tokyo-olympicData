@@ -1,4 +1,21 @@
 # 🏅 Tokyo Olympics Data Engineering Project (Azure End-to-End Pipeline)
+---
+
+## 🧱 Architecture Diagram
+
+This architecture illustrates the full end-to-end pipeline from data ingestion to dashboarding using Azure services.
+
+![Azure Architecture](https://github.com/alicorduk/Azure-Data-Engineer---Tokyo-olympicData/blob/main/Azure_Diagram.png)
+
+---
+
+## 🔁 Data Pipeline
+
+This Azure Data Factory pipeline copies raw Olympic datasets (athletes, coaches, entriesgender, medals, teams) into ADLS Gen2 before transformation in Databricks.
+
+![ADF Pipeline](https://github.com/alicorduk/Azure-Data-Engineer---Tokyo-olympicData/blob/main/Pipelines.png)
+
+---
 
 This project showcases an end-to-end data engineering workflow using Azure services to analyze Olympic datasets. It covers everything from data ingestion to transformation, storage, and SQL-based analytics.
 
@@ -79,22 +96,7 @@ Stored in `raw-data/` and transformed into `transformed-data/` folders:
 
 ---
 
-## 🔁 Data Pipeline
 
-This Azure Data Factory pipeline copies raw Olympic datasets (athletes, coaches, entriesgender, medals, teams) into ADLS Gen2 before transformation in Databricks.
-
-![ADF Pipeline](https://github.com/alicorduk/Azure-Data-Engineer---Tokyo-olympicData/blob/main/Pipelines.png)
-
----
-
-## 🧱 Architecture Diagram
-
-This architecture illustrates the full end-to-end pipeline from data ingestion to dashboarding using Azure services.
-
-![Azure Architecture](https://github.com/alicorduk/Azure-Data-Engineer---Tokyo-olympicData/blob/main/Azure_Diagram.png)
-
-
----
 
 ## 📁 Repo Structure
 
