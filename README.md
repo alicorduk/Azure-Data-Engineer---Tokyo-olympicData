@@ -1,4 +1,4 @@
-# 🏅 Tokyo Olympics Data Engineering Project (Azure End-to-End Pipeline)
+# Tokyo Olympics Data Engineering Project (Azure End-to-End Pipeline)
 ---
 
 ## 🧱 Architecture Diagram
