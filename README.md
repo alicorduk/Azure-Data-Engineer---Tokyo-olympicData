@@ -97,4 +97,5 @@ tokyo-olympics-data-engineering/
 ├── screenshots/ # Output images (UI, SQL results)
 ├── data-sample/ # (Optional) Small sample CSVs
 └── README.md # This file
+│
 
