@@ -98,7 +98,5 @@ synapse/ # SQL scripts for table creation & analytics
    
 screenshots/ # Output images (UI, SQL results)
    
-data-sample/ # (Optional) Small sample CSVs
-   
 README.md # This file
 
