@@ -37,6 +37,14 @@ Azure Synapse Analytics (External Tables + SQL)
 
 ---
 
+## 🔁 Data Pipeline
+
+This Azure Data Factory pipeline copies raw Olympic datasets (athletes, coaches, entriesgender, medals, teams) into ADLS Gen2 before transformation in Databricks.
+
+![ADF Pipeline](https://github.com/alicorduk/Azure-Data-Engineer---Tokyo-olympicData/blob/main/Pipelines.png)
+
+---
+
 ## 📂 Datasets
 
 Stored in `raw-data/` and transformed into `transformed-data/` folders:
@@ -89,13 +97,7 @@ Stored in `raw-data/` and transformed into `transformed-data/` folders:
 
 ---
 
-## 🔁 Data Pipeline
 
-This Azure Data Factory pipeline copies raw Olympic datasets (athletes, coaches, entriesgender, medals, teams) into ADLS Gen2 before transformation in Databricks.
-
-![ADF Pipeline](https://github.com/alicorduk/Azure-Data-Engineer---Tokyo-olympicData/blob/main/Pipelines.png)
-
----
 
 
 
