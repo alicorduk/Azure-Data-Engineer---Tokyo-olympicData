@@ -93,9 +93,13 @@ Stored in `raw-data/` and transformed into `transformed-data/` folders:
 tokyo-olympics-data-engineering/
 │
    -├── notebooks/ # Databricks ETL notebooks (.ipynb)
+   
    -├── synapse/ # SQL scripts for table creation & analytics
+   
    -├── screenshots/ # Output images (UI, SQL results)
+   
    -├── data-sample/ # (Optional) Small sample CSVs
+   
    -└── README.md # This file
 │
 
