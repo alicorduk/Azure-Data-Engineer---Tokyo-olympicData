@@ -72,9 +72,8 @@ Stored in `raw-data/` and transformed into `transformed-data/` folders:
 
 ## 📸 Screenshots
 
-| Synapse Tables | SQL Query Output |
-|----------------|------------------|
-| ![tables](./screenshots/synapse_tables.png) | ![output](./screenshots/sql_query_results.png) |
+| Synapse Tables |
+|----------------|
 ![Synapse Analytics](https://github.com/alicorduk/Azure-Data-Engineer---Tokyo-olympicData/blob/main/Synapse%20Analytics.png)
 
 
