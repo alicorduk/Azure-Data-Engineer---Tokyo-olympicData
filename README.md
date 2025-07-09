@@ -70,7 +70,7 @@ Stored in `raw-data/` and transformed into `transformed-data/` folders:
 
 ---
 
-## 📸 Screenshots
+## 📸 Screenshot
 
 | Synapse Tables |
 |----------------|
